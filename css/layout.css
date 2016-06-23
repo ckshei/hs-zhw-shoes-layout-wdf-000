@@ -34,9 +34,6 @@
   width: 66%;
 }
 
-.col-3 {
-
-}
 
 [class*="col-"] {
   margin-left: 2%;
@@ -47,9 +44,17 @@
 }
 
 .row {
+  position: relative;
   clear: both;
   margin-bottom: 2%;
+  overflow: hidden;
+  width: 100%;
 }
 #details {
   clear: both;
+}
+
+.row < div {
+  height: 100%;
+  position: absolute;
 }
